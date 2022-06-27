@@ -31,10 +31,10 @@ func _player_shoot():
 	
 func _set_player_speed(var name:float):
 	player_speed = name
-func _set_player_health(var name:int):
-	player_health = name
-func _set_player_attack(var name:int):
-	player_attack = name
+func _set_player_health(var health:int):
+	player_health = health
+func _set_player_attack(var attack:int):
+	player_attack = attack
 func _set_player_name(var name:String):
 	player_name = name
 func _set_player_shooting_speed(var shooting_speed:float):

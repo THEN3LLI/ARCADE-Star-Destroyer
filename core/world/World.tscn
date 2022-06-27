@@ -9,7 +9,7 @@ script = ExtResource( 2 )
 [node name="Player" parent="." instance=ExtResource( 1 )]
 
 [node name="TimerDifficulty" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 40.0
 autostart = true
 
 [node name="TimerPowerups" type="Timer" parent="."]
@@ -31,7 +31,7 @@ text = "HEALTH: 100"
 margin_right = 40.0
 margin_bottom = 14.0
 
-[node name="Label" type="Label" parent="Control"]
+[node name="Label_PowerUps" type="Label" parent="Control"]
 margin_right = 40.0
 margin_bottom = 14.0
 

@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 func _process(delta):
-	self.translate(Vector2(-4,0))
+	self.translate(Vector2(-6,0))
 
 func _is_powerup():
 	pass
